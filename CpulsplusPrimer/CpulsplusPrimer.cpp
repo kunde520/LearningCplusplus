@@ -2,13 +2,32 @@
 //
 
 #include <iostream>
+#include "Sales_item.h"
 
 int main()
 {
-    std::cout << "Enter two numbers:" << std::endl;
-    int v1 = 0, v2 = 0;
-    std::cin >> v1 >> v2;
-    std::cout << "The sum of " << v1 << "and " << v2 << " is " << v1 + v2 << std::endl;
+	//std::cout << "/*";
+	//std::cout << "*/";
+	////Sample
+	//std::cout << "Enter two numbers:" << std::endl;
+	//int v1 = 0, v2 = 0;
+	//std::cin >> v1 >> v2;
+	//std::cout << "The sum of " << v1 << "and " << v2 << " is " << v1 + v2 << std::endl;
+	////practice 1.3
+	//std::cout << "Hello, World";
+	//practice 1.4.3
+	/*int sum = 0, value = 0;
+	while (std::cin >> value)
+	{
+		sum += value;
+	}
+	std::cout << "Sum is " << sum;*/
+	//practice 1.5
+	Sales_item book;
+	std::cin >> book;
+	std::cout << book << std::endl;
+
+	return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

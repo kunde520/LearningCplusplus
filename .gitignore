@@ -33,3 +33,6 @@
 .vs/*
 CpulsplusPrimer/.vs/*
 .vscode/*
+CpulsplusPrimer/Debug/*
+CpulsplusPrimer/Release/*
+VisualStudio2012/*
