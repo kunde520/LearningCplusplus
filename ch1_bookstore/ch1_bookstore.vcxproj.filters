@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CpulsplusPrimer.cpp">
+    <ClCompile Include="ch1_bookstore.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

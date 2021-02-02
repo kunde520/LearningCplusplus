@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{3aeb6b4c-a527-487d-9e12-c497523d3765}</ProjectGuid>
-    <RootNamespace>CpulsplusPrimer</RootNamespace>
+    <ProjectGuid>{d08318fe-1395-48fc-a2ef-358cbeca5d8a}</ProjectGuid>
+    <RootNamespace>ch1bookstore</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CpulsplusPrimer.cpp" />
+    <ClCompile Include="ch1_bookstore.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sales_item.h" />

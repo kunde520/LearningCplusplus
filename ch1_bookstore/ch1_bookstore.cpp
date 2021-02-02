@@ -1,4 +1,4 @@
-// CpulsplusPrimer.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// ch1_bookstore.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
@@ -6,30 +6,27 @@
 
 int main()
 {
-	//std::cout << "/*";
-	//std::cout << "*/";
-	////Sample
-	//std::cout << "Enter two numbers:" << std::endl;
-	//int v1 = 0, v2 = 0;
-	//std::cin >> v1 >> v2;
-	//std::cout << "The sum of " << v1 << "and " << v2 << " is " << v1 + v2 << std::endl;
-	////practice 1.3
-	//std::cout << "Hello, World";
-	//practice 1.4.3
-	/*int sum = 0, value = 0;
-	while (std::cin >> value)
+	Sales_item total;
+	if (std::cin >> total)
 	{
-		sum += value;
+		Sales_item trans;
+		while (std::cin >> trans)
+		{
+			if (total.isbn() == trans.isbn())
+				total += trans;
+			else
+			{
+				std::cout << total << std::endl;
+				total = trans;
+			}
+		}
+		std::cout << total << std::endl;
 	}
-	std::cout << "Sum is " << sum;*/
-	////practice 1.5
-	//Sales_item book;
-	//std::cin >> book;
-	//std::cout << book << std::endl;
-	int i, & ri = i;
-	i = 5, ri = 10;
-	std::cout << i << " " << ri << std::endl;
-
+	else
+	{
+		std::cerr << "No data?!" << std::endl;
+		return -1;
+	}
 	return 0;
 }
 
